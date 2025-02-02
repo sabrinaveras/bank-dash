@@ -1,16 +1,16 @@
-import {Card, CardProps} from "../../../components/card";
+import {CreditCard, CreditCardProps} from "../../../components/creditCard";
 import {Meta, StoryObj} from "@storybook/react";
 
 
 const meta = {
-    title: "components/card",
-    component: Card,
+    title: "components/creditCard",
+    component: CreditCard,
     tags: ["autodocs"],
-} satisfies Meta<CardProps>
+} satisfies Meta<CreditCardProps>
 
 export default meta;
 
-type Story = StoryObj<CardProps>;
+type Story = StoryObj<CreditCardProps>;
 
 export const Primary: Story = {
     args:{
@@ -18,7 +18,7 @@ export const Primary: Story = {
         cardHolder: "Eddy Cusuma",
         validThru: "12/12",
         
-        cardType: "primary",
+        creditCardType: "primary",
     }
 }
 
@@ -28,6 +28,6 @@ export const Secondary: Story = {
         cardHolder: "Eddy Cusuma",
         validThru: "12/12",
         
-        cardType: "secondary",
+        creditCardType: "secondary",
     }
 }
