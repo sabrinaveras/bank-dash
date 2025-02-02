@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "jsxImportSource": "react",
+    },
+    "compilerOption": {
+        "baseUrl": ".",
+        "paths": {
+            "@components": ["src/components/*"],
+            "@pages": ["src/pages/*"],
+            "@routes": ["src/routes/*"],
+            "@stories": ["src/stories/*"],
+            "@theme": ["src/theme/*"],
+            "@utils": ["src/utils/*"],
+        }
+    }
+}
