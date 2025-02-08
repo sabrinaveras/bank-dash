@@ -13,6 +13,7 @@ export const palette: PaletteOptions = {
         light: "#FFE0EB",
     },
     success: {
+        dark: "#41D4A8",
         main: "#16DBCC",
         light: "#DCFAF8",
     },
