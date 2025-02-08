@@ -3,7 +3,7 @@ import {Meta, StoryObj} from "@storybook/react";
 
 
 const meta = {
-    title: "components/creditCard",
+    title: "components/credit card",
     component: CreditCard,
     tags: ["autodocs"],
 } satisfies Meta<CreditCardProps>

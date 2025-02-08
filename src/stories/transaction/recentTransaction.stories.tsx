@@ -1,10 +1,10 @@
 import {RecentTransaction, RecentTransactionProps} from "../../components/transaction";
 import {Meta, StoryObj} from "@storybook/react";
-import {CreditCardIcon, CreditCardsIcon, DollarSignIcon, PaypalIcon} from "../../theme/icons";
+import {CreditCardsIcon, DollarSignIcon, PaypalIcon} from "../../theme/icons";
 import {theme} from "../../theme";
 
 const meta = {
-    title: "components/transaction",
+    title: "components/transaction/recent",
     component: RecentTransaction,
     tags: ["autodocs"],
 } satisfies Meta<RecentTransactionProps>

@@ -4,7 +4,7 @@ import {MoneyBagIcon} from "../../../theme/icons";
 import {theme} from "../../../theme";
 
 const meta = {
-    title: "components/cardInfo",
+    title: "components/card info",
     component: CardInfo,
     tags: ["autodocs"],
 } satisfies Meta<CardInfoProps>
