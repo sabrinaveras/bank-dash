@@ -1,7 +1,7 @@
-import {LastTransaction, LastTransactionProps} from "../../components/transaction";
+import {LastTransaction, LastTransactionProps} from "../../../components/transaction";
 import {Meta, StoryObj} from "@storybook/react";
-import {CreditCardsIcon, RenewIcon, SettingsIcon, UserIcon, UserOutlineIcon} from "../../theme/icons";
-import {theme} from "../../theme";
+import {CreditCardsIcon, RenewIcon, SettingsIcon, UserIcon, UserOutlineIcon} from "../../../theme/icons";
+import {theme} from "../../../theme";
 
 const meta = {
     title: "components/transaction/last",

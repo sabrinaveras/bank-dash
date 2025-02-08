@@ -1,4 +1,4 @@
-import {TableTransaction, TableTransactionProps} from "../../components/transaction";
+import {TableTransaction, TableTransactionProps} from "../../../components/transaction";
 import {Meta, StoryObj} from "@storybook/react";
 
 const meta = {
